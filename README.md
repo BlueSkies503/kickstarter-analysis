@@ -4,23 +4,35 @@
 Our friend Louise wants to see how different Kickstarter campaigns fared based on the dates of launch and their funding goals.
 
 ### Purpose
-Analysis to provide insight on different Kickstarter campaigns in relation to their launch dates and funding goals
+Analysis to provide insight on different Kickstarter campaigns in relation to their launch dates and funding goals.
 
 ## Analysis and Challenges
-aoeu aoeu aoeu aoeu aoeu aoeu aoeu aoeu 
+We filtered the data set for only campaigns regarding theater, and plays specifically. We then performed statistical analysis to find their measures of central tendancy regarding funding goals as well as what actually ended up being pledged.
+
+![Plays_Central_Tendancy](https://user-images.githubusercontent.com/35434608/173207797-8c01797a-b14b-44af-8194-f52236c5b9b3.png)
+
+We found that the mean goal for failed plays was much higher than the median. This means that there is at least one campaign with an unusually high goal skewing the data to the right.
+
+### Coding
+
+Because of the size of the data set we relied on code to quickly count the frequency that a campaign with a goal between a certain range met that goal. For example:
+
+``` =COUNTIFS(Kickstarter!$D:$D, ">=1000", Kickstarter!$D:$D, "<=4999", Kickstarter!$R:$R, "plays", Kickstarter!$F:$F, "successful") ```
+
+The ```COUNTIFS()``` function will tell us how many times a campaign has met any number of criteria. In the example above it counts how many plays with a goal between $1,000 and $4,999 met their funding goal.
 
 ### Analysis of Outcomes Based on Launch Date
-aoeu aoeu aoeu aoeu 
+This graph shows the outcomes of theater campaigns based on their launch dates, with months on the horizontal axis and number of successful, failed, or canceled campaigns on the vertical axis. 
 
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/35434608/173206607-a5da7d53-fcbe-466d-a764-46594ecc636a.png)
 
 ### Analysis of Outcomes Based on Goals
-aoeu aoeu aoeu aoeu 
+This graph shows the percentage of campaigns that were successful, failed, or canceled, on the vertical axis, as the funding goals increase on the horizontal axis.
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/35434608/173206499-04f07a6d-b36a-4604-9a3b-07c618f416d1.png)
 
 ### Challenges and Difficulties Encountered
-aoeu aoeu aoeu aoeu 
+Being new to working with Excel took patience, it almost never responded how I would have expected it to. Studying the functions and looking at examples from the official Excel documentation helped to not just get the job done, but understand how to use these tools in new ways.
 
 ## Results
 
