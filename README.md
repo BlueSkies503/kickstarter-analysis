@@ -10,14 +10,17 @@ Analysis to provide insight on different Kickstarter campaigns in relation to th
 aoeu aoeu aoeu aoeu aoeu aoeu aoeu aoeu 
 
 ### Analysis of Outcomes Based on Launch Date
+aoeu aoeu aoeu aoeu 
 
-/Users/huntermatthews/Desktop/Class_Folder/Crowdfunding_Analysis/resources/Theater_Outcomes_vs_Launch.png
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/35434608/173206607-a5da7d53-fcbe-466d-a764-46594ecc636a.png)
 
 ### Analysis of Outcomes Based on Goals
+aoeu aoeu aoeu aoeu 
 
-/Users/huntermatthews/Desktop/Class_Folder/Crowdfunding_Analysis/resources/Outcomes_vs_Goals.png
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/35434608/173206499-04f07a6d-b36a-4604-9a3b-07c618f416d1.png)
 
 ### Challenges and Difficulties Encountered
+aoeu aoeu aoeu aoeu 
 
 ## Results
 
